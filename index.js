@@ -19,6 +19,9 @@ app.post("/auth",(req,res)=>{
     res.send("auth")
 })
 
+app.post("/api/v1/create",(req,res)=>{
+    res.send("users")
+})
 app.listen(port,()=>{
     console.log("port running successfully on port",port)
 })
