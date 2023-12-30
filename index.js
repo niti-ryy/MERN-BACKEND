@@ -11,8 +11,8 @@ app.get("/api/projects/total",(req,res)=>{
     res.json({total:5})
 })
 
-app.get("/api/users",(req,res)=>{  //create by gravita
-    res.send("creating users branch")
+app.get("/api/users",(req,res)=>{  //create by gravit
+    res.send("creating users branchh")
 })
 
 app.listen(port,()=>{
