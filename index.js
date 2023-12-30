@@ -14,3 +14,7 @@ app.get("/api/projects/total",(req,res)=>{
 app.listen(port,()=>{
     console.log("port running successfully on port",port)
 })
+
+app.post("/api/new",(req,res)=>{
+    res.send("josn")
+})
