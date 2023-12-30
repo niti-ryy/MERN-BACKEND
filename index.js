@@ -10,6 +10,11 @@ app.get("/api/projects",(req,res)=>{
 app.get("/api/projects/total",(req,res)=>{
     res.json({total:5})
 })
+
+app.get("/api/users",(req,res)=>{  //create by gravita
+    res.send("creating users branch")
+})
+
 app.listen(port,()=>{
     console.log("port running successfully on port",port)
 })
